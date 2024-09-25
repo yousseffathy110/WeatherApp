@@ -25,8 +25,8 @@ body {
 .search {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 25px;
 }
 input {
   border: none;
@@ -50,8 +50,8 @@ button {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 button img {
   width: 20px;
@@ -60,7 +60,7 @@ button img {
 /* start the Weather status section  */
 .weatherstatus {
   color: white;
-  margin: 35px;
+  margin: 70px 0;
 }
 .weatherstatus img {
   width: 150px;
@@ -75,3 +75,29 @@ button img {
   text-transform: capitalize;
 }
 /* finshed the Weather status section  */
+/* start the Weather info section  */
+.weatherinfo {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.weatherinfo .humidity,
+.weatherinfo .windspeed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.weatherinfo .humidity img,
+.weatherinfo .windspeed img {
+  width: 45px;
+}
+.weatherinfo .humidity h3,
+.weatherinfo .windspeed h3 {
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+/* finshed the Weather info section  */
