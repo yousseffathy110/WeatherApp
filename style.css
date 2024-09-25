@@ -57,3 +57,21 @@ button img {
   width: 20px;
 }
 /* finshed the search section  */
+/* start the Weather status section  */
+.weatherstatus {
+  color: white;
+  margin: 35px;
+}
+.weatherstatus img {
+  width: 150px;
+}
+.weatherstatus h1 {
+  font-size: 4.5rem;
+  margin-top: 15px;
+  font-weight: 100;
+}
+.weatherstatus p {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+/* finshed the Weather status section  */
