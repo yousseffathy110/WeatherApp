@@ -31,13 +31,14 @@ body {
 input {
   border: none;
   outline: none;
-  padding: 7px 15px;
+  padding: 8px 20px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   font-size: 1.1rem;
+  width: 285px;
 }
 button {
   background-color: transparent;
@@ -60,7 +61,7 @@ button img {
 /* start the Weather status section  */
 .weatherstatus {
   color: white;
-  margin: 70px 0;
+  margin: 20px 0 70px 0;
 }
 .weatherstatus img {
   width: 150px;

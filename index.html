@@ -9,13 +9,14 @@
   <body>
     <section class="card">
       <div class="search">
-        <input type="text" placeholder="Enter The City Name..." />
+        <input type="text" placeholder="Enter The City Name..." id="search" />
         <button>
           <img
             src="/images/search.png"
             alt="search icon"
             decoding="async"
             loading="lazy"
+            id="submit"
           />
         </button>
       </div>
@@ -25,6 +26,7 @@
           alt="clear weather"
           decoding="async"
           loading="lazy"
+          class="weatherstatusimg"
         />
         <h1 class="degree">7°c</h1>
         <p class="city">New York</p>
@@ -38,7 +40,7 @@
             loading="lazy"
           />
           <div class="info">
-            <h3 class="percentage">48%</h3>
+            <h3 class="percentage" id="humidty">48%</h3>
             <p>Humidity</p>
           </div>
         </div>
@@ -50,7 +52,7 @@
             loading="lazy"
           />
           <div class="info">
-            <h3 class="speed">10.29 Km/h</h3>
+            <h3 class="speed" id="windSpeed">10.29 Km/h</h3>
             <p>Wind Speed</p>
           </div>
         </div>
