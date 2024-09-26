@@ -28,6 +28,7 @@ const checkWeather = async (city) => {
   humidty.textContent = data.main.humidity + "% ";
   windSpeed.textContent = data.wind.speed + " Km/h";
   weatherImage.src = `images/${data.weather[0].main.toLowerCase()}.png`;
+  searchInput.value = "";
 };
 
 submitBtn.addEventListener("click", () => {
