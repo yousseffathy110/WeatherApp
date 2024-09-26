@@ -19,7 +19,7 @@ body {
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
-  padding: 25px 50px;
+  padding: 25px 15px;
   text-align: center;
 }
 .search {
@@ -32,13 +32,13 @@ input {
   border: none;
   outline: none;
   padding: 8px 20px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
   font-size: 1.1rem;
-  width: 285px;
+  width: 250px;
 }
 button {
   background-color: transparent;
@@ -67,12 +67,12 @@ button img {
   width: 150px;
 }
 .weatherstatus h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin-top: 15px;
   font-weight: 100;
 }
 .weatherstatus p {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
 /* finshed the Weather status section  */
@@ -81,15 +81,14 @@ button img {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 50px;
+  gap: 10px;
 }
 .weatherinfo .humidity,
 .weatherinfo .windspeed {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 4px;
 }
 .weatherinfo .humidity img,
 .weatherinfo .windspeed img {
