@@ -11,9 +11,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+::placeholder {
+  color: white;
+}
 /* start the search section  */
 .card {
-  background: linear-gradient(135deg, #00feba, #5b548a);
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -29,7 +32,8 @@ body {
   gap: 25px;
 }
 input {
-  border: none;
+  background-color: transparent;
+  border: 2px solid white;
   outline: none;
   padding: 8px 20px;
   border-radius: 20px;
@@ -37,14 +41,14 @@ input {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  color: white;
   width: 250px;
 }
 button {
-  background-color: transparent;
   border: none;
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(213, 213, 213);
   padding: 5px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -53,6 +57,18 @@ button {
   -o-border-radius: 50%;
   width: 40px;
   height: 40px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.search button:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 button img {
   width: 20px;
